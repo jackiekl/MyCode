@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div class="block_element">
-          <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
-          <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
-          <a href="https://google.com"><div class="inline-block">Nav Item 1</div></a>
-        </div>
-      </nav>
-    <div class="left">Left
-        <p>Left side</p>
-    </div>
-    <div class="left"></div>
+
+  <nav class="navigation">
+    <ul class="navigationList">
+      <li class="navigationListItem">Home</li><li class="navigationListItem">Diet</li><li class="navigationListItem">Habitat</li>
+    </ul>
+  </nav>
+
+  <aside class="aside">
+      <div class="image">
+        <img src="image/Lion_waiting_in_Namibia.jpg" alt="Lion">
+      </div> <!--image-->
+      <div>
+        <ul>
+          <li><b>Pet Stats</b></li>
+          <li>Breed</li>
+          <li>Age</li>
+          <li>Favorite Toy</li>
+          <li>Avg Walk Per Day</li>
+          <li>Owner Name</li>
+        </ul>
+      </div> <!--List of items-->
+  </aside>
+
+  <main class="main" >
+      <section class="section">
+        <div class="imageContainer">
+          <img src="image/Lion_waiting_in_Namibia.jpg" alt="Lion">
+        </div> <!-- image -->
+        <div class="headlineContainer">
+          <h1>I am an awesome animal</h1>
+        </div> <!-- headline -->
+        <div class="paragraphContainer">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dolor diam, tincidunt sed odio in, efficitur lobortis nisl. Duis efficitur augue ut metus faucibus cursus. Integer vel arcu sit amet magna finibus posuere at sit amet erat. Phasellus at nisi tincidunt, vulputate massa vel, tincidunt enim. Mauris et augue nec urna molestie porttitor. Curabitur ac bibendum nunc. Donec tincidunt pretium risus non vehicula. Duis sed nulla sodales sem gravida gravida. Donec vehicula est sit amet est facilisis faucibus. Morbi consectetur dignissim arcu ut bibendum. Sed vestibulum pulvinar finibus.
+          </p>
+        </div> <!-- paragraph -->
+      </section> <!-- One image section -->
+  </main>
+
 </body>
 </html>

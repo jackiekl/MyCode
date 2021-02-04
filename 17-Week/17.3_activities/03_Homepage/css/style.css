@@ -1,6 +1,79 @@
-.left {
-    background-color: lightblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: block;
+    background-color: red;
+}
+
+.navigationList {
+    border: 1px solid black;
+}
+
+.navigationListItem {
+    display: inline-block;
+    background-color: grey;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.aside {
+    background-color: peachpuff;
+    width: 29%;
+    height: 700px;
     float: left;
-    height: 500px;
+}
+
+.image {
     width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+     object-fit: cover; /*maintains aspect ratio */
+}
+
+.main {
+    background-color: blueviolet;
+    float: right;
+    width: 70%;
+    height: 700px;
+    padding: 10px;
+}
+
+.section {
+    margin-top: 10px;
+    position: relative;
+}
+
+.imageContainer {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+}
+
+.headlineContainer {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    left: 260px;
+}
+
+.paragraphContainer {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    left: 260px;
+    top: 40px;
 }
